@@ -22,7 +22,7 @@ const app = new cdk.App({
   ]
 });
 const cdkStack = new BmgAwsStack(app, 'BmgAwsStack', {
-  env: { account: '573690211264', region: 'ap-southeast-1' },
+  env: { account: 'xxxxxxxx', region: 'ap-southeast-1' },
 });
 
 NagSuppressions.addStackSuppressions(cdkStack, [
